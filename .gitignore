@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Entornos / secretos ---
+.venv/
+venv/
+env/
+*.env
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# (Opcional) Si usaste nltk.download() y te creó carpeta local
+nltk_data/
+
+# --- Outputs / artefactos (por si luego guardas modelos) ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# --- Logs ---
+*.log
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+
